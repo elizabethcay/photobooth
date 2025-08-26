@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seijai 四仔</title>
+
+    <!-- Refs -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.png">
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>seijai 四仔</h1>
+        <p class="subtitle">4-cut photo booth</p>
+      </header>
+
+      <main class="main-content">
+        <section class="video-section">
+          <div class="video-container" id="video-container">
+            <video id="video" autoplay muted playsinline></video>
+            <div id="countdown" class="countdown">3</div>
+          </div>
+
+          <div class="controls">
+            <button id="start" class="btn-primary">capture</button>
+            <button id="download" class="btn-secondary">download</button>
+          </div>
+        </section>
+
+        <aside class="image-strip" id="image-strip">
+          <div class="strip-header">my photos strip</div>
+            <img>
+            <img>
+            <img>
+            <img>
+        </aside>
+      </main>
+
+      <section class="info-section">
+        <h2 class="info-title">privacy & permissions ⋆. 𐙚 ˚</h2>
+        <p class="info-text">
+          camera access is only used for live preview and photo capture. all
+          photos remain on your device and nothing is stored or transmitted. you
+          can revoke camera permissions anytime through your browser settings.
+        </p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>built with ♡ by elizabeth | © 2025</p>
+    </footer>
+  </body>
+</html>
